@@ -27,7 +27,7 @@ function mostrarMenu() {
 function darDeAlta(){
     nuevo = prompt("Ingresa el nombre del nuevo producto");
     price = prompt("Ingresa el precio $ del nuevo producto");
-    if(nuevo){
+    if(nuevo && price){
         tarea= {
             nombre: nuevo,
             precio: price
